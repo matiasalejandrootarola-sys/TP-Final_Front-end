@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--va toda la infor que se necesita para la pag.-->
+
+<head class="fijo">
+    <meta charset="UTF-8"> <!--interpreta todos los símbolos-->
+
+    <!--etiqueta para adaptar a diferentes dispositivos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clase01</title>
+
+    <!--Inclusión de Google Font "Roboto"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!--Inclusión de la Libreria Font Awsome para iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--   Llamo al archivo CCS en este Script   -->
+    <link rel="stylesheet" href="./CSS/Style.css">
+
+</head>
+
+<!--En esta sección se desarrola la pag.-->
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/Logo.png" alt="Logo de tu sitio Web">
+            <h1> Ingeniería en Robótica </h1> <!--Título-->
+        </div>
+
+        <div class="container">
+            <nav> <!--Menú de navegación-->
+              
+                <ul class="Men_nav">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="Servicios_productos.html">Servicios/productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <video controls poster="./img/Robots.jpg" width="600" height="400">
+                <source src="./Videos/Video Robot.mp4" type="video/mp4">
+            </video>
+            <track src="./Videos/Video Robot Sub.vtt" kind="subtitles" srclang="es" label="Español"> .
+
+            <h2>Cursos</h2> <!--Sub Título-->
+            <h3>Robótica</h3>
+            <p>Introducción a la Robótica</p> <!--Parrafo-->
+            <a href="index2.html" target="_blank">Fotos de Robots</a> <!--Etiqueta enlace-->
+        </section>
+
+        <section>
+            <h2>Recorrido</h2> <!--Sub Título-->
+            <ol>
+                <li>Intro</li>
+                <li>Teoría</li>
+                <li>Práctica Simulada</li>
+                <li>Práctica con robot</li>
+            </ol>
+        </section>
+    </main>
+
+    <Footer>
+        <p> © 2025 Mi Sitio Web. Todos los derechos reservados. </p>
+        <p> Ing. Otarola Matias</p>
+        <i class="fa-brands fa-square-whatsapp"></i> <!-- Icono de Whatsapp-->
+        <i class="fa-regular fa-comment"></i> <!-- Icono de Mensaje-->
+        <i class="fa-brands fa-facebook"></i> <!-- Icono de Facebook-->
+
+    </Footer>
+</body>
+
+</html>
+
+<!--    <ol> Lista Ordenada </ol>   -->
+<!--    <ul> Lista desordenada </ul>    -->
+<!--    <li> Items de la lista </li>    -->
+<!-- 
+* target="_blank" / sirve para navegar entre pag. en diferentes pestañas
+* alt="Foto de robot" / texto que aparece si la foto no se muestra
+* a href="" --Etiqueta enlace
+
+Comentar Ctrl+C+K
+
+     -->
