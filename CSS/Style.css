@@ -1,0 +1,160 @@
+/* Reseteo del documento */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+/*=============================================================*/
+
+body {
+    height: 100vh;
+    background-color: #a9aaac;
+    color: #fff;
+}
+
+/*=============================================================*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: left; */
+    background-color: #24252a;
+    position: fixed; 
+    width: 100%; 
+}
+/*=============================================================*/
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 60px;
+    margin-right: 200 px; 
+}
+/*
+.logo h1 {
+   margin-right: 200 px; 
+}
+
+
+/*=============================================================*/
+.container nav{
+      display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center; 
+}
+
+/*=============================================================*/
+/* 1) Utilizo un selector de etiqueta*/
+/*
+h1{
+    /* color: blue;
+    font-size: 40px;
+    background-color: rgba(255, 0, 255, 0.3);
+    font-style: italic;
+    cursor: pointer;
+    text-align: center; */
+/*
+     display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-right: 200 px; 
+
+}
+
+/*=============================================================*/
+/* 1) Utilizo un selector de Clase*/
+/*
+.Men_nav {
+    color: blue;
+    background-color: rgba(255, 0, 255, 0.3);
+    font-style: oblique;
+    cursor: pointer;
+    text-align: right;
+    list-style: none;
+
+    a {
+        text-decoration: none;
+    }
+}
+*/
+/*=============================================================*/
+
+.Men_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+/*=============================================================*/
+
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: 1.5vw;
+    transition: all .3s ease 0s;
+}
+
+li:hover {
+    background-color: #008849;
+}
+
+li a {
+    color: #fff;
+}
+/*=============================================================*/
+
+
+
+.Men_nav_li {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.Men_nav_li2 {
+    color: blue;
+    font-size: 20px;
+    font-style: normal;
+}
+*/
+/* Pongo un fondo en la etiqueta Body
+Con una sola repetición*/
+/*
+body {
+    background-image: url(../img/Robots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+        font-family: "Roboto", sans-serif;
+
+}
+        */
+
+
+.fijo {
+    position: fixed;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+    
