@@ -3,7 +3,7 @@
 
 <!--va toda la infor que se necesita para la pag.-->
 
-<head class="fijo">
+<head>
     <meta charset="UTF-8"> <!--interpreta todos los símbolos-->
 
     <!--etiqueta para adaptar a diferentes dispositivos-->
@@ -24,53 +24,153 @@
 
     <!--   Llamo al archivo CCS en este Script   -->
     <link rel="stylesheet" href="./CSS/Style.css">
-
 </head>
 
 <!--En esta sección se desarrola la pag.-->
 
 <body>
     <header>
-        <div class="logo">
-            <img src="./img/Logo.png" alt="Logo de tu sitio Web">
-            <h1> Ingeniería en Robótica </h1> <!--Título-->
-        </div>
+        <nav class="container">
+            <div class="logo">
+                <img src="./img/Logo.png" alt="Logo de tu sitio Web">
+                <h2>Ingeniería en Robótica</h2> <!--Sub Título-->
+            </div>
 
-        <div class="container">
+            <!-- <div class="container"> -->
             <nav> <!--Menú de navegación-->
-              
                 <ul class="Men_nav">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="Servicios_productos.html">Servicios/productos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass naranja"></i>
+                        <a href="#">Buscar</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-globe naranja"></i>
+                        <i class="fa-thin fa-globe red"></i>
+                        <!-- <i class="fa-regular fa-comment"></i> -->
+                        <a href="#">Idioma</a>
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-paper-plane naranja"></i>
+                        <a href="#">Contacto</a>
+                    </li>
+                    <!-- <li><a href="Servicios_productos.html">Servicios/productos</a></li> -->
+                    <li>
+                        <i class="fa-regular fa-user naranja"></i>
+                        <a href="#">Registrarse</a>
+                    </li>
                 </ul>
             </nav>
-        </div>
+            <!-- </div> -->
+        </nav>
     </header>
 
-    <main>
-        <section>
-            <video controls poster="./img/Robots.jpg" width="600" height="400">
-                <source src="./Videos/Video Robot.mp4" type="video/mp4">
-            </video>
-            <track src="./Videos/Video Robot Sub.vtt" kind="subtitles" srclang="es" label="Español"> .
-
-            <h2>Cursos</h2> <!--Sub Título-->
-            <h3>Robótica</h3>
-            <p>Introducción a la Robótica</p> <!--Parrafo-->
-            <a href="index2.html" target="_blank">Fotos de Robots</a> <!--Etiqueta enlace-->
+    <main class="top">
+        <section class="part_01 ">
+            <!-- Fondo -->
         </section>
 
-        <section>
-            <h2>Recorrido</h2> <!--Sub Título-->
-            <ol>
-                <li>Intro</li>
-                <li>Teoría</li>
-                <li>Práctica Simulada</li>
-                <li>Práctica con robot</li>
-            </ol>
+        <section Class="part_02">
+            <div class="info">
+                <h1> MO Ingeniería </h1> <!--Título-->
+                <P>
+                    MO es un líder tecnológico mundial en electrificación y automatización que hace posible un
+                    futuro
+                    más
+                    eficiente y sostenible en el uso de los recursos.
+                    Conectando su dominio de la ingeniería y de la digitalización, MO contribuye a que las
+                    industrias
+                    funcionen a alto rendimiento,
+                    al tiempo que mejoran su eficiencia, productividad y sostenibilidad, para superar sus
+                    resultados.
+                    En MO, lo llamamos “Engineered to Outrun”. La compañía cuenta con más de 140 años de historia
+                    y más de 110.000 personas empleadas en todo el mundo.
+                </P>
+            </div>
         </section>
+
+        <section class="part_03 ">
+            <h1> Nuestros trabajos </h1> <!--Título-->
+            <div class="videos">
+                <video autoplay muted lopp>
+                    <source src="./Videos/Video Robot.mp4">
+                </video>
+
+                <video autoplay muted lopp>
+                    <source src="./Videos/Video Robot 02.mp4">
+                </video>
+            </div>
+        </section>
+
+        <section class="part_04">
+            <div class=" item">
+                <h3><a href="Servicios_productos.html">Capacitación</a></h3> <!--Sub Título-->
+                <div class="item_img">
+                    <img src="./img/Capacitaciones.JPG" alt="Capacitaciones">
+                </div>
+            </div>
+
+            <div class=" item">
+                <h3><a href="Servicios_productos.html">Tecnologías</a></h3>
+                <div class="item_img">
+                    <img src="./img/Tecnologías.JPG" alt="Capacitaciones">
+                </div>
+            </div>
+
+            <div class=" item">
+                <h3><a href="Servicios_productos.html">Carreras</a></h3>
+                <div class="item_img">
+                    <img src="./img/carrera.JPG" alt="Capacitaciones">
+                </div>
+            </div>
+
+            <div class=" item">
+                <h3><a href="Servicios_productos.html">Práctica con robot</a></h3>
+                <div class="item_img">
+                    <img src="./img/Práctica con robot.JPG" alt="Capacitaciones">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="part_03 ">
+            <h1> Recorrido </h1> <!--Título-->
+        </section>
+
+        <section class="part_04">
+            <div class=" item">
+                <h3><a href="Servicios_productos.html">Productos</a></h3>
+                <div class="icon">
+                    <i class="fa-solid fa-gears naranja fa-6x"></i>
+                </div>
+            </div>
+
+            <div class=" item">
+                <h3><a href="#">Servicios</a></h3>
+                <div class="icon">
+                    <i class="fa-solid fa-screwdriver-wrench naranja fa-6x"></i>
+                </div>
+            </div>
+
+            <div class=" item">
+                <h3><a href="#">Área del cliente</a></h3>
+                <div class="icon">
+                    <i class="fa-regular fa-comments naranja fa-6x"></i>
+                </div>
+            </div>
+
+            <div class=" item">
+                <h3><a href="#">Descargas</a></h3>
+                <div class="icon">
+                    <i class="fa-solid fa-download naranja fa-6x"></i>
+
+                </div>
+            </div>
+
+            <!-- <li>Contacto</li>
+            <li><a href="Servicios_productos.html">Servicios/productos</a></li>
+            <li>Área del cliente</li>
+            <li>Empresa</li>
+        </section> -->
     </main>
 
     <Footer>
@@ -79,6 +179,8 @@
         <i class="fa-brands fa-square-whatsapp"></i> <!-- Icono de Whatsapp-->
         <i class="fa-regular fa-comment"></i> <!-- Icono de Mensaje-->
         <i class="fa-brands fa-facebook"></i> <!-- Icono de Facebook-->
+        <i class="fa-light fa-envelope"></i> <!-- Icono de mail-->
+
 
     </Footer>
 </body>
