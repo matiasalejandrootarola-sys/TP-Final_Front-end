@@ -312,17 +312,17 @@ li a {
 }
 
 .content i {
-    margin: 0 0 0 50px;
+    margin: 10 0 0 0px;
     color: #e7b309;
     font-size: 30px;
 }
 
 .content p {
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
-    margin: 30px 10px 0 10px;
+    margin: 100px 10px 0 10px;
 }
 
 .content a {
