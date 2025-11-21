@@ -44,7 +44,7 @@ header {
 
 .logo img {
     height: 60px;
-    margin-right: 200 px;
+    margin-right: 200px;
 }
 
 /*=============================================================*/
@@ -76,7 +76,7 @@ li {
     display: flex;
     justify-content:center;
 
-    list-style: none;
+    /* list-style: none; */
     cursor: pointer;
     padding: 21px;
     transition: all .3s ease 0s;
@@ -96,11 +96,11 @@ li a {
 
 /*------------------------------------------------------------*/
 
-.Men_nav_li {
+/* .Men_nav_li {
     color: black;
     font-size: 16px;
     font-style: normal;
-}
+} */
 
 /*=============================================================*/
 /* main */
@@ -312,21 +312,21 @@ li a {
 }
 
 .content i {
+    margin: 0 0 0 50px;
     color: #e7b309;
     font-size: 30px;
 }
 
 .content p {
     color: black;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
-    margin: 100px 0 0 0;
-
+    margin: 30px 10px 0 10px;
 }
 
 .content a {
-    margin: 15px 0 0;
+    margin: 15px 0 0 0;
     display: inline-block;
     text-decoration: none;
     font-weight: 900;
